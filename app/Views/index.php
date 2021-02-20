@@ -180,7 +180,7 @@
                        <h2 class="area-title">Aplikasi Pilihan</h2>
                        <div class="devider"></div>
                        <p>
-                           Kami memiliki beberapa aplikasi yang berbeda, sesuai dengan kebutuhan dan keperluan Anda. berikut aplikasi yang ada di galeri Kami.
+                           Kami memiliki beberapa aplikasi yang berbeda, sesuai dengan kebutuhan dan keperluan anda. berikut aplikasi yang ada di galeri Kami.
                        </p>
                    </div>
                </div>
