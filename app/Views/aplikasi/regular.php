@@ -24,7 +24,6 @@
                                         <li>
                                             <a href="#"><i class="fas fa-user"></i> <?= $penulis; ?></a>
                                         </li>
-
                                     </ul>
                                 </div>
                                 <h2>
