@@ -16,7 +16,7 @@
 
                             <div class="thumb">
                                 <a href="#"><img src="assets/img/1500x700.png" alt="Thumb"></a>
-                                <div class="date">12 Dec, 2020</div>
+                                <div class="date">12 Dec, <?= date('Y'); ?></div>
                             </div>
                             <div class="info">
                                 <div class="meta">
