@@ -33,10 +33,11 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+// routes untuk page
 $routes->get('/kerjasama', 'Page::kerjasama');
 $routes->get('/tentang', 'Page::tentang');
 $routes->get('/apa-itu-esis', 'Page::whatesis');
-
+// routes untuk page aplikasi
 $routes->get('/demo', 'Aplikasi::index');
 $routes->get('/regular', 'Aplikasi::regular');
 $routes->get('/premium', 'Aplikasi::premium');
