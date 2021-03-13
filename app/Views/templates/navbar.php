@@ -20,8 +20,8 @@
                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                      <i class="fa fa-bars"></i>
                  </button>
-                 <a class="navbar-brand" href="http://localhost:8080/">
-                     <img src="/assets/img/logo.png" class="logo" alt="Logo">
+                 <a class="navbar-brand" href="<?= base_url(); ?>">
+                     <img src="<?= base_url(); ?>/assets/img/logo.png" class="logo" alt="Logo">
                  </a>
              </div>
              <!-- End Header Navigation -->
@@ -30,7 +30,7 @@
              <div class="collapse navbar-collapse" id="navbar-menu">
                  <ul class="nav navbar-nav navbar-center" data-in="#" data-out="#">
                      <li>
-                         <a href="#" class="smooth-menu active">Home</a>
+                         <a href="<?= base_url(); ?>" class="smooth-menu active">Home</a>
                      </li>
                      <li>
                          <a class="smooth-menu" href="#fitur">Fitur</a>

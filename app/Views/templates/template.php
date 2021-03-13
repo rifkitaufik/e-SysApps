@@ -12,27 +12,27 @@
     <title><?= $title; ?></title>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= base_url(); ?>/assets/img/favicon.png" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/assets/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="/assets/css/themify-icons.css" rel="stylesheet" />
-    <link href="/assets/css/flaticon-set.css" rel="stylesheet" />
-    <link href="/assets/css/magnific-popup.css" rel="stylesheet" />
-    <link href="/assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="/assets/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link href="/assets/css/animate.css" rel="stylesheet" />
-    <link href="/assets/css/bootsnav.css" rel="stylesheet" />
-    <link href="/assets/style.css" rel="stylesheet">
-    <link href="/assets/css/responsive.css" rel="stylesheet" />
+    <link href="<?= base_url(); ?>/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<?= base_url(); ?>/assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="<?= base_url(); ?>/assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="<?= base_url(); ?>/assets/css/flaticon-set.css" rel="stylesheet" />
+    <link href="<?= base_url(); ?>/assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="<?= base_url(); ?>/assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="<?= base_url(); ?>/assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="<?= base_url(); ?>/assets/css/animate.css" rel="stylesheet" />
+    <link href="<?= base_url(); ?>/assets/css/bootsnav.css" rel="stylesheet" />
+    <link href="<?= base_url(); ?>/assets/style.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>/assets/css/responsive.css" rel="stylesheet" />
     <!-- ========== End Stylesheet ========== -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="/assets/js/html5/html5shiv.min.js"></script>
-      <script src="/assets/js/html5/respond.min.js"></script>
+      <script src="<?= base_url(); ?>/assets/js/html5/html5shiv.min.js"></script>
+      <script src="<?= base_url(); ?>/assets/js/html5/respond.min.js"></script>
     <![endif]-->
 
     <!-- ========== Google Fonts ========== -->
@@ -58,7 +58,7 @@
     <footer class="bg-dark text-light">
         <!-- Shape -->
         <div class="footer-shape">
-            <img src="/assets/img/shape/4.png" alt="Shape">
+            <img src="<?= base_url(); ?>/assets/img/shape/4.png" alt="Shape">
         </div>
         <!-- Shape -->
         <div class="container">
@@ -78,16 +78,16 @@
                             <h4 class="widget-title">Quick Link</h4>
                             <ul>
                                 <li>
-                                    <a href="/"><i class="fas fa-angle-right"></i> Home</a>
+                                    <a href="<?= base_url(); ?>"><i class="fas fa-angle-right"></i> Home</a>
                                 </li>
                                 <li>
-                                    <a href="/tentang"><i class="fas fa-angle-right"></i> Tentang Kami</a>
+                                    <a href="<?= base_url(); ?>/tentang"><i class="fas fa-angle-right"></i> Tentang Kami</a>
                                 </li>
                                 <li>
-                                    <a href="/kerjasama"><i class="fas fa-angle-right"></i> Kerjasama</a>
+                                    <a href="<?= base_url(); ?>/kerjasama"><i class="fas fa-angle-right"></i> Kerjasama</a>
                                 </li>
                                 <li>
-                                    <a href="/apa-itu-esis"><i class="fas fa-angle-right"></i> Apa itu E-Sys?</a>
+                                    <a href="<?= base_url(); ?>/apa-itu-esis"><i class="fas fa-angle-right"></i> Apa itu E-Sys?</a>
                                 </li>
                             </ul>
                         </div>
@@ -161,22 +161,22 @@
 
     <!-- jQuery Frameworks
     ============================================= -->
-    <script src="/assets/js/jquery-1.12.4.min.js"></script>
-    <script src="/assets/js/popper.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/jquery.appear.js"></script>
-    <script src="/assets/js/jquery.easing.min.js"></script>
-    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="/assets/js/modernizr.custom.13711.js"></script>
-    <script src="/assets/js/owl.carousel.min.js"></script>
-    <script src="/assets/js/wow.min.js"></script>
-    <script src="/assets/js/progress-bar.min.js"></script>
-    <script src="/assets/js/isotope.pkgd.min.js"></script>
-    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="/assets/js/count-to.js"></script>
-    <script src="/assets/js/YTPlayer.min.js"></script>
-    <script src="/assets/js/bootsnav.js"></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/jquery-1.12.4.min.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/popper.min.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/bootstrap.min.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/jquery.appear.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/jquery.easing.min.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/modernizr.custom.13711.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/owl.carousel.min.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/wow.min.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/progress-bar.min.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/isotope.pkgd.min.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/count-to.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/YTPlayer.min.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/bootsnav.js"></script>
+    <script src="<?= base_url(); ?>/assets/js/main.js"></script>
 
 </body>
 
